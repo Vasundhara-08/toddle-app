@@ -1,0 +1,145 @@
+.heading{
+    display: flex;
+    position:relative;
+   bottom: 85px;
+   background-color: white;
+   height: 77px;
+   width: 100vw;
+   /* left: 80px; */
+}
+
+.title{
+    position: relative;
+    left: 66px;
+}
+.layout{
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 120px;
+    margin: 40px;
+}
+
+#he{
+    height: 50px;
+    color: #000000;
+}
+
+#line{
+    position: relative;
+    top: 6%;
+   left: 3%;
+}
+
+#posp.popup-inner{
+    max-height: 517px;
+    height: 68%;
+  }
+
+#new{
+    position: absolute;
+    right: 20px;
+}
+
+#content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position:relative;
+    bottom:50px;
+}
+
+#icon{
+   height: 64px;
+   width: 72px;
+   position: relative;
+   top: 6px;
+   left: 44px;
+}
+
+.symbols{
+    border: none;
+    background-color: white;
+    position: relative;
+    left: 40px;
+    /* width: 60px; */
+    /* 
+    height: 60px; */
+    size: 20px;
+    object-fit: cover;
+}
+
+#last{
+    position: relative;
+    bottom: 25px;
+}
+
+.icons-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    flex-direction: row;
+}
+
+#icons{
+    
+    position: relative;
+    left: 1200px;
+}
+
+#imege{
+    height: 19px;
+    border: none;
+    position: relative;
+    left: 1px;
+    width: 118px;
+   
+    
+}
+
+#publish{
+    position: relative;
+    left: 76%;
+    top: 15%;
+    width: 25%;
+    font-size: 20px;
+}
+
+.form {
+  position: relative;
+}
+
+.file-label {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.file-label input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+
+/* .img {
+  display: none;
+} */
+
+/* Style the placeholder image */
+img2 {
+  width: 20px; /* Adjust the width as needed */
+  height: auto; /* Adjust the height as needed */
+}
+
+   
+
+

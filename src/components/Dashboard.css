@@ -1,0 +1,98 @@
+.dashboard {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .name3 {
+    margin-left: 30px;
+  }
+  
+  .cards-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    height: 40px;
+  }
+  
+  .card-content {
+    flex: 1;
+  }
+  
+  .card-text {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-text h2 {
+    margin-left: 100px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #222222;
+    /* position: relative; */
+    top: -69px;
+    right: -24px;
+  }
+  
+  .card-image {
+    /* margin-right: 10px; */
+    /* position: relative; */
+    top: 27px;
+    left: -21px;
+    
+  }
+  
+  .card-options {
+    margin-left: 10px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dots {
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+  }
+  
+  .dropdown-content div {
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .delete {
+    color: red !important;
+  }
+  
+  .tag {
+    /* position: absolute; */
+    right: 0;
+    height: 80px;
+    width: 100px;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    top: 0;
+  }
+  

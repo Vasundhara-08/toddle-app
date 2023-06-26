@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Avenir:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap'
+);
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.head {
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.combined {
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    width: 120px;
+    height: 40px;
+    
+}
+
+.head ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 12px, 48px, 12px, 48px;
+    margin: 0;
+    list-style-type: none;
+    width: 1440px;
+    height: 72px;
+}
+
+.dot{
+   display: flex;
+   justify-content: space-between;
+}
+
+
+.form1{
+    position: relative;
+    left: 400px;
+    border: 1px solid #DBDBDB;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 40px;
+    padding: 7px;
+    width: 320px;
+}
+
+#search {
+    font-size: 20px;
+    border: none;
+    position: relative;
+   left: 22px;
+   
+   /* background-color: #B0B0B0; */
+}
+
+.button {
+    background-color: #D33852;
+    border: none;
+    border-radius: 6px;
+    padding: 1px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+width: 188px;
+height: 40px;
+    
+}
+
+#new-board{
+    position: relative;
+    left: 70px;
+}
+
+.button:hover {
+    background-color: rgb(195, 16, 16);
+    transition: 0.7s;
+    color: rgb(243, 245, 240);
+}
+
+.button:focus {
+    outline: none !important;
+    box-shadow: 0 0 0 2px rgb(249, 250, 249);
+    transition: 0.7s;
+}
